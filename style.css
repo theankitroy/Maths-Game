@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    width:100%;
     background:radial-gradient(circle,#fff,#ccc);
     background:-webkit-radial-gradient(circle,#fff,#ccc);
     background:-o-radial-gradient(circle,#fff,#ccc);
@@ -28,6 +29,7 @@ html{
     box-shadow: 0px 4px 0px #9da853;
     -webkit-box-shadow: 0px 4px 0px #9da853;
     -moz-box-shadow: 0px 4px 0px #9da853;
+    border-radius: 30px;
 }
 #correct{
     position: absolute;
@@ -157,7 +159,7 @@ html{
     background: -o-linear-gradient(#F3CA6B,#F3706C);
     background: -moz-linear-gradient(#F3CA6B,#F3706C);
     color:white;
-    font-size:2.5em;
+    font-size:100%;
     text-align: center;
     text-transform: uppercase;
     position: absolute;
@@ -165,4 +167,17 @@ html{
     left:45px;
     z-index:2; /*If any div with absolute posn is interacting with another absolute div, then we should use this to set top priority*/
     display:none;
+}
+#life{
+    background-color: #F1FF92;
+    color:#888E5F;
+    padding:11px 15px;
+    position: absolute;
+    bottom: 378px;
+    box-shadow: 0px 4px 0px #9da853;
+    -webkit-box-shadow: 0px 4px 0px #9da853;
+    -moz-box-shadow: 0px 4px 0px #9da853;
+    border-radius: 30px;
+    display:none;
+
 }
