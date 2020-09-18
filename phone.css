@@ -64,3 +64,19 @@
     line-height: 38px;
    
 }
+@media screen and (max-width:370px) {
+    #score{
+        left:230px;
+        font-size:12px;
+    }
+    .box{
+        width:38px;
+    }
+    #container{
+        height:420px;
+    }
+    #life{
+        bottom:400px;
+        font-size:15px;
+    }
+  }
