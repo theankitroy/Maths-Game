@@ -1,0 +1,65 @@
+#container{
+    height: 400px;
+    width: 80%;
+   
+}
+
+#score{
+   left:247px;
+   width:50px;
+   height: 15px;
+   font-size: 14px;
+   position: absolute;
+}
+#correct{
+    left:140px;
+    width:40px;
+    height: 15px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px;
+}
+#wrong{
+    left:140px;
+    width:50px;
+    height: 15px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+}
+#question{
+    width: 100%;
+    height: 150px;
+    font-size: 80px;
+}
+#instruction{
+    width:100%;
+  
+}
+
+#choices{
+    width:100%;
+    height:100px;
+    margin:5px auto;
+}
+.box{
+    width:44.7px;
+    height: 45px;
+    line-height:45px;
+   
+}
+
+#timeremaining{
+    width:153px;
+    top:345px;
+    left:75px;
+   
+}
+
+#gameover{
+    height:250px;
+    width:90%;
+    top:100px;
+    left:18px;
+   
+}
